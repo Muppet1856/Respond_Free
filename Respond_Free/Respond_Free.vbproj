@@ -260,10 +260,11 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>Respond_Free_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>7315790C905DD67A93F6DFE37F10AABCAC82B46C</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>83234C506283B3E6EBDFB6848A4997EA662FF1AC</ManifestCertificateThumbprint>
   </PropertyGroup>
   <!-- Include the build rules for a Visual Basic project. -->
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
